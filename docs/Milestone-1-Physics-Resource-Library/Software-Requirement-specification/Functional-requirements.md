@@ -40,7 +40,7 @@ This document defines the functional requirements for Milestone 1 of the Physics
 
 **FR-012:** The system shall store the teacher's school information for teacher verification.
 
-**FR-013:** The system shall prevent unverified teachers from accessing teacher-only features but can access student content.
+**FR-013:** Unverified teachers shall not have access to teacher-only features but shall be permitted to access student practice features.
 
 **FR-014:** The system shall change the teacher account status to **Verified** after successful teacher verification.
 
@@ -80,6 +80,8 @@ This document defines the functional requirements for Milestone 1 of the Physics
 
 **FR-029:** The system shall enforce role permissions on both the client and server.
 
+# 2.3 Teacher Assessment Generation
+
 **FR-030:** Verified teachers shall be able to generate Physics
 assessments.
 
@@ -117,135 +119,146 @@ replace question-bank content.
 
 # 2.4 Assessment Preview, Printing and Download
 
-**FR-042:** Teachers shall preview assessments before printing or
+**FR-043:** Teachers shall preview assessments before printing or
 downloading.
 
-**FR-043:** The preview shall display questions in a printable format.
+**FR-044:** The preview shall display questions in a printable format.
 
-**FR-044:** Formatting, numbering, diagrams, equations, and tables shall
+**FR-045:** Formatting, numbering, diagrams, equations, and tables shall
 be preserved.
 
-**FR-045:** Teachers shall be able to print generated assessments.
+**FR-046:** Teachers shall be able to print generated assessments.
 
-**FR-046:** Teachers shall be able to download assessments as PDF files.
+**FR-047:** Teachers shall be able to download assessments as PDF files.
 
-**FR-047:** Teachers shall be able to print or download answer keys for MCQ.
+**FR-048:** Teachers shall be able to print or download answer keys for MCQ.
 
-**FR-048:** Downloaded PDFs shall preserve the preview formatting.
+**FR-049:** Downloaded PDFs shall preserve the preview formatting.
 
 # 2.5 PDF Worksheet Library
 
-**FR-049:** Verified teachers shall have access to downloadable PDF
+**FR-050:** Verified teachers shall have access to downloadable PDF
 worksheets.
 
-**FR-050:** Worksheets shall be organized by educational level.
+**FR-051:** Worksheets shall be organized by educational level.
 
-**FR-051:** Worksheets shall be organized by Physics topic.
+**FR-052:** Worksheets shall be organized by Physics topic.
 
-**FR-052:** Each worksheet will have the fields Student Name, School, Number on Class List, Class.
+**FR-053:** Each downloadable worksheet shall contain fields for:
 
-**FR-053:** Teachers shall be able to preview worksheets where
+- Student Name
+- School
+- Number on Class List
+- Class
+
+# 2.6 Student Practice
+
+**FR-054:** Teachers shall be able to preview worksheets where
 available.
 
-**FR-054:** Teachers shall be able to download worksheets.
+**FR-055:** Teachers shall be able to download worksheets.
 
-**FR-055:** The original worksheet shall remain unchanged during preview
+**FR-056:** The original worksheet shall remain unchanged during preview
 and download.
 
-**FR-055:** Teachers shall have read-only access to worksheets.
-**FR-056:** Authenticated students shall be able to begin a practice
+**FR-057:** Teachers shall have read-only access to worksheets.
+**FR-058:** Authenticated students shall be able to begin a practice
 session.
 
-**FR-057:** Verified teachers shall also be able to access the student
+**FR-059:** Verified teachers shall also be able to access the student
 practice module.
 
-**FR-058:** Users shall select an educational level.
+**FR-060:** Users shall select an educational level.
 
-**FR-059:** The system shall display topics for the selected educational
+**FR-061:** The system shall display topics for the selected educational
 level.
 
-**FR-060:** Users shall select a Physics topic.
+**FR-062:** Users shall select a Physics topic.
 
-**FR-061:** Questions shall be retrieved from the curated Physics
+**FR-063:** Questions shall be retrieved from the curated Physics
 question bank.
 
-**FR-062:** MCQ for the students shall be displayed one at a time.
+**FR-064:** MCQ for the students shall be displayed one at a time.
 
-**FR-063:** All answer options for MCQ for the students shall be displayed.
+**FR-065:** All answer options for MCQ for the students shall be displayed.
 
-**FR-064:** User shall select one answer before submission.
+**FR-066:** User shall select one answer before submission.
 
-**FR-065:** The system shall prevent blank submissions.
+**FR-067:** The system shall prevent blank submissions.
 
-**FR-066:** The system shall evaluate submitted answers and provide immediate feedback after each
+**FR-068:** The system shall evaluate submitted answers and provide immediate feedback after each
 submitted answer.
 
-**FR-067:** The system shall display the correct answer after an
+**FR-069:** The system shall display the correct answer after an
 incorrect response.
 
-**FR-068:** Users shall be able to proceed to the next question after
+**FR-070:** Users shall be able to proceed to the next question after
 receiving feedback.
 
-**FR-069:** Duplicate questions shall not appear during a practice
+**FR-071:** Duplicate questions shall not appear during a practice
 session.
 
-**FR-070:** The system shall maintain the user's score throughout the
+**FR-072:** The system shall maintain the user's score throughout the
 practice session.
 
-**FR-071:** The system shall display the number of completed questions.
+**FR-073:** The system shall display the number of completed questions.
 
-**FR-072:** The system shall display the final score at the end of the
+**FR-074:** The system shall display the final score at the end of the
 practice session.
 
-**FR-073:** The system shall display a performance summary showing: -
-Total questions - Correct answers - Incorrect answers - Percentage score
+**FR-075:** The system shall display a performance summary at the end of the practice session containing:
 
-**FR-074:** Long-term progress tracking shall not be required in
+- Total questions attempted
+- Correct answers
+- Incorrect answers
+- Percentage score
+
+**FR-076:** Long-term progress tracking shall not be required in
 Milestone 1.
 
 # 2.7 Search and Navigation
 
-**FR-075:** The system shall provide navigation appropriate to the
+**FR-077:** The system shall provide navigation appropriate to the
 user's role.
 
-**FR-076:** Teachers shall have navigation to: - Assessment Generation -
+**FR-078:** Teachers shall have navigation to: - Assessment Generation -
 PDF Worksheet Library - Student Practice
 
-**FR-077:** Students shall have navigation to: - Student Practice
+**FR-079:** Students shall have navigation to: - Student Practice
 
-**FR-078:** Teachers shall be able to search worksheets.
+**FR-080:** Teachers shall be able to search worksheets.
 
-**FR-079:** Teachers shall be able to filter worksheets by educational
+**FR-081:** Teachers shall be able to filter worksheets by educational
 level and topic.
 
-**FR-080:** The system shall allow users to return to the dashboard from
+**FR-082:** The system shall allow users to return to the dashboard from
 all major pages.
 
-**FR-081:** The system shall display clear page headings and navigation
+**FR-083:** The system shall display clear page headings and navigation
 labels.
 
-**FR-082:** The system shall display an appropriate message when no
+**FR-084:** The system shall display an appropriate message when no
 matching content is found.
 
 # 2.8 Feedback
 
-**FR-083:** Authenticated teachers and students shall be able to submit
+**FR-085:** Authenticated teachers and students shall be able to submit
 feedback.
 
-**FR-084:** The system shall allow users to categorize feedback as: -
+**FR-086:** The system shall allow users to categorize feedback as: -
 Bug Report - Question Error - Worksheet Error - Feature Suggestion -
 General Feedback
 
-**FR-085:** The system shall allow users to enter a textual description
+**FR-087:** The system shall allow users to enter a textual description
 of their feedback.
 
-**FR-086:** The system shall acknowledge successful feedback submission.
+**FR-088:** The system shall acknowledge successful feedback submission.
 
-**FR-087:** The system shall record the submitted feedback together
+**FR-089:** The system shall record the submitted feedback together
 with: - User role - Username - Date and time of submission - Feedback
 category
 
-**FR-088:** Only authenticated users shall be permitted to submit
+**FR-090:** Only authenticated users shall be permitted to submit
 feedback.
 
 
