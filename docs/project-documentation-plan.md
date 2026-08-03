@@ -2,26 +2,74 @@
 
 This document outlines the software engineering documents that will be produced throughout the development of the Physics Learning Platform. Detailed information will be documented in the corresponding files.
 
-### 1. Project Roadmap (Completed)
+# Software Engineering Plan
 
-### 2. Vision and Scope (Completed)
+### Project Roadmap
 
-### 3. Software Requirements Specification (SRS)
+**Status:** ✅ Completed
 
-### 4. System Analysis
+---
 
-### 5. System Design
+### Vision and Scope
 
-### 6. Database Design
+**Status:** ✅ Completed
 
-### 7. API Specification
+---
 
-### 8. User Interface and User Experience (UI/UX) Design
+### Software Requirements Specification (SRS)
 
-### 9. Security Design
+**Status:** 🚧 In Progress
 
-### 10. Testing Strategy
+---
 
-### 11. Deployment Plan
+### System Analysis
 
-### 12. Maintenance and Future Enhancements
+**Status:** ⏳ Not Started
+
+---
+
+### System Design
+
+**Status:** ⏳ Not Started
+
+---
+
+### Database Design
+
+**Status:** ⏳ Not Started
+
+---
+
+### API Specification
+
+**Status:** ⏳ Not Started
+
+---
+
+### User Interface and User Experience (UI/UX) Design
+
+**Status:** ⏳ Not Started
+
+---
+
+### Security Design
+
+**Status:** ⏳ Not Started
+
+---
+
+### Testing Strategy
+
+**Status:** ⏳ Not Started
+
+---
+
+### Deployment Plan
+
+**Status:** ⏳ Not Started
+
+---
+
+### Maintenance and Future Enhancements
+
+**Status:** ⏳ Not Started
