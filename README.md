@@ -1,9 +1,1 @@
-# Physics Learning Platform
-
-## Problem
-
-## Target Users
-
-## Main Goal
-
-## Initial Features
+The Physics-learning-platform will be a landing page for Physics teachers and students, school administrators in Cameroon and potentially around the world
