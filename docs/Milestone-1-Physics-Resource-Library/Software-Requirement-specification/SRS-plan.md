@@ -14,7 +14,7 @@
 
 #### 1.5 Assumptions and Dependencies
 
-## 2. Functional Requirements
+## 2. Functional Requirements (Completed)
 
 #### 2.1 User Registration and Authentication
 
@@ -36,7 +36,7 @@
 
 #### 2.10 Platform Administration
 
-## 3. Non-Functional Requirements
+## 3. Non-Functional Requirements (Completed)
 
 #### 3.1 Usability
 
@@ -54,12 +54,4 @@
 
 #### 3.8 Data Integrity and Backup
 
-## 4. User Roles and Permissions
 
-## 5. Business Rules
-
-## 6. Use Cases
-
-## 7. Acceptance Criteria
-
-## 8. Requirements Traceability
