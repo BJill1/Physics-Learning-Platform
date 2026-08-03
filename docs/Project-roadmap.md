@@ -4,11 +4,23 @@ The Physics Learning Platform will be developed and deployed incrementally. Each
 #### Milestone 1 – Physics Resource Library
 
 * User registration and authentication.
-* Role-based access control.
-* Physics notes organized by educational level and topic.
-* Downloadable PDF worksheets.
-* Search and navigation of learning resources.
+  * Role-based access control.
+* Generate MCQ assessments from the Physics question bank.
+  * Select the educational level.
+  * Select the topic.
+  * Select the number of questions (up to a configurable maximum).
+* Preview generated assessments before printing.
+* Print or download assessments with answer keys.
+
+* Student Features
+  * Select the educational level.
+  * Select the topic.
+  * Answer multiple-choice questions one at a time.
+  * Receive immediate feedback after each question.
+  * View the final score and performance summary at the end of the assessment.
+* Search and navigation.
 * Initial public deployment.
+
 
 #### Milestone 2 – AI Worksheet and MCQ Generator
 
