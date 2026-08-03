@@ -1,3 +1,9 @@
+**Version:** 1.0
+**Status:** Baseline (Frozen)
+**Last Updated:** August 3, 2026
+
+
+
 # Functional Requirements
 
 **Project:** Physics Learning Platform  
