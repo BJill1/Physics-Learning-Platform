@@ -22,12 +22,13 @@ The Physics Learning Platform will be developed and deployed incrementally. Each
 * Initial public deployment.
 
 
-#### Milestone 2 – AI Worksheet and MCQ Generator
+#### Milestone 2 – AI Worksheet Physics notes by topic and by level
 
 * AI-assisted generation of multiple-choice questions.
 * Teacher selection of topic, difficulty level, and number of questions.
 * Printable worksheets with answer keys.
 * Deployment of the second platform release.
+* Physics notes by topic and by level
 
 #### Milestone 3 – Student Practice Platform
 
