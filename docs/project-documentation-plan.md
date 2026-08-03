@@ -18,7 +18,7 @@ This document outlines the software engineering documents that will be produced 
 
 ### Software Requirements Specification (SRS)
 
-**Status:** 🚧 In Progress
+**Status:** ✅ Completed
 
 ---
 
