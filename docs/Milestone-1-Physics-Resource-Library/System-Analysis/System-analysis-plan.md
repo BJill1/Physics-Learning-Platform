@@ -18,5 +18,3 @@ This document analyzes the system requirements and identifies the major componen
 ## 4. System Processes
 
 ## 5. Data Requirements
-
-## 6. System Constraints
