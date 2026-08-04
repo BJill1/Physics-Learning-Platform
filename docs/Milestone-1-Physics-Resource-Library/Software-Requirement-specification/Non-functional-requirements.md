@@ -27,53 +27,57 @@ This document defines the non-functional requirements for Milestone 1 of the Phy
 
 **NFR-004:** The system shall require authentication and authorization before granting access to protected resources.
 
+**NFR-005:** The system shall apply rate limits to requests for questions, worksheets, assessment generation, and file downloads.
+
+**NFR-006:** The system shall detect and temporarily restrict accounts or devices that make unusually large or rapid requests for platform content.
+
 ---
 
 ## 3.3 Reliability and Availability
 
-**NFR-005:** The platform shall provide reliable operation during normal usage.
+**NFR-007:** The platform shall provide reliable operation during normal usage.
 
-**NFR-006:** The platform shall recover gracefully from unexpected system failures whenever possible.
+**NFR-008:** The platform shall recover gracefully from unexpected system failures whenever possible.
 
 ---
 
 ## 3.4 Usability
 
-**NFR-007:** The platform shall provide a simple and intuitive user interface for both teachers and students.
+**NFR-009:** The platform shall provide a simple and intuitive user interface for both teachers and students.
 
-**NFR-008:** The system shall display clear and meaningful messages for user actions, validation errors, and system errors.
+**NFR-010:** The system shall display clear and meaningful messages for user actions, validation errors, and system errors.
 
 ---
 
 ## 3.5 Compatibility
 
-**NFR-009:** The platform shall support modern web browsers, including Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
+**NFR-011:** The platform shall support modern web browsers, including Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
 
-**NFR-010:** The platform shall be responsive and support desktop, tablet, and mobile devices.
+**NFR-012:** The platform shall be responsive and support desktop, tablet, and mobile devices.
 
 ---
 
 ## 3.6 Scalability
 
-**NFR-011:** The system architecture shall support future growth in the number of users, Physics questions, worksheets, and learning resources.
+**NFR-013:** The system architecture shall support future growth in the number of users, Physics questions, worksheets, and learning resources.
 
-**NFR-012:** The platform shall support the addition of new features with minimal impact on existing functionality.
+**NFR-014:** The platform shall support the addition of new features with minimal impact on existing functionality.
 
 ---
 
 ## 3.7 Maintainability
 
-**NFR-013:** The application shall be developed using a modular software architecture to simplify maintenance and future enhancements.
+**NFR-015:** The application shall be developed using a modular software architecture to simplify maintenance and future enhancements.
 
-**NFR-014:** Project documentation shall be updated whenever significant changes are made to the system.
+**NFR-016:** Project documentation shall be updated whenever significant changes are made to the system.
 
 ---
 
 ## 3.8 Backup and Recovery
 
-**NFR-015:** Platform data shall be backed up regularly to reduce the risk of data loss.
+**NFR-017:** Platform data shall be backed up regularly to reduce the risk of data loss.
 
-**NFR-016:** The system shall support restoration of backed-up data in the event of system failure or accidental data loss.
+**NFR-018:** The system shall support restoration of backed-up data in the event of system failure or accidental data loss.
 
 ---
 
