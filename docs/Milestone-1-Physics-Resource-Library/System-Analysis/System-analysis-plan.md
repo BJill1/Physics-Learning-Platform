@@ -9,12 +9,10 @@ This document analyzes the system requirements and identifies the major componen
 
 ---
 
-## 1. System Actors
+## 1. Use Cases
 
-## 2. Use Cases
+## 2. Business Rules
 
-## 3. Business Rules
+## 3. System Processes
 
-## 4. System Processes
-
-## 5. Data Requirements
+## 4. Data Requirements
