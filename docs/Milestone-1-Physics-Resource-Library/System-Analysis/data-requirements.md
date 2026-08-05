@@ -15,7 +15,7 @@ The system shall store information required to identify and authenticate users.
 - Optional email address  
 - Optional mobile phone number  
 - User role  
-- Account creation date  
+- Account creation date
 
 ### Teacher Data
 
@@ -79,7 +79,8 @@ The system shall store information required to organize and download PDF workshe
 
 The system shall temporarily process information during a student or teacher practice session.
 
-- Selected educational level  
+- Selected educational level
+- Selected modules  
 - Selected Physics topics  
 - Questions presented  
 - Answers submitted  
