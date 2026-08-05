@@ -11,8 +11,4 @@ This document analyzes the system requirements and identifies the major componen
 
 ## 1. Use Cases
 
-## 2. Business Rules
-
-## 3. System Processes
-
 ## 4. Data Requirements
