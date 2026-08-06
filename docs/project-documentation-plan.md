@@ -24,7 +24,7 @@ This document outlines the software engineering documents that will be produced 
 
 ### System Analysis
 
-**Status:** ⏳ Not Started
+**Status:** ✅ Completed
 
 ---
 
